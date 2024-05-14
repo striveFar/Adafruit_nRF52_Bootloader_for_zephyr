@@ -289,6 +289,8 @@ CFLAGS += \
 	-Wsign-compare \
 	-Wmissing-format-attribute \
 	-Wno-endif-labels \
+	-MMD \
+	-MP \
 	-Wunreachable-code
 
 # Suppress warning caused by SDK
